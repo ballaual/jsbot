@@ -10,7 +10,7 @@ const { GuildId } = require("../config.json");
  * @param {Client} client
  */
 module.exports = async (client) => {
-    const Table = new Ascii("Command Loaded");
+    const Table = new Ascii("Commands Loaded");
 
     CommandsArray = [];
 
@@ -20,7 +20,7 @@ module.exports = async (client) => {
         if(!command.name) 
         return Table.addRow(file.split("/")[7], "🔺 FAILED", "Missing a name.")
 
-        if(!command.description)
+        if(!command.type && !command.description)
         return Table.addRow(command.name, "🔺 FAILED", "Missing a description.")
 
 
