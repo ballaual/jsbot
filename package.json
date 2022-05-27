@@ -1,24 +1,32 @@
 {
-  "name": "js-discordbot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "nodemon index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@discordjs/builders": "^0.13.0",
-    "@discordjs/rest": "^0.4.1",
-    "ascii-table": "^0.0.9",
-    "ascii-tables": "^0.0.1",
-    "discord-api-types": "^0.33.0",
-    "discord.js": "^13.7.0",
-    "dotenv": "^16.0.1",
-    "glob": "^8.0.3",
-    "nodemon": "^2.0.16",
-    "os-utils": "^0.0.14"
-  }
+    "name": "js-discordbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/builders": "^0.13.0",
+        "@discordjs/opus": "^0.7.0",
+        "@discordjs/rest": "^0.4.1",
+        "@discordjs/voice": "^0.9.0",
+        "@distube/spotify": "^1.2.1",
+        "ascii-table": "^0.0.9",
+        "ascii-tables": "^0.0.1",
+        "discord-api-types": "^0.33.0",
+        "discord.js": "^13.7.0",
+        "distube": "^3.3.4",
+        "dotenv": "^16.0.1",
+        "ffmpeg-static": "^4.4.1",
+        "glob": "^8.0.3",
+        "libsodium-wrappers": "^0.7.10",
+        "nodemon": "^2.0.16",
+        "os-utils": "^0.0.14",
+        "yt-search": "^2.10.3",
+        "ytdl-core": "^4.11.0"
+    }
 }
