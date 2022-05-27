@@ -4,6 +4,7 @@ const client = new Client({intents: [131071]});
 const { Token } = require("./config.json");
 
 client.commands = new Collection();
+client.voiceGenerator = new Collection();
 
 const { DisTube} = require("distube");
 const { SpotifyPlugin } = require("@distube/spotify");
